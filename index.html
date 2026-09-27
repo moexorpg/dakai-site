@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dakai — Addon Dragon Ball para Minecraft Bedrock</title>
+<meta name="description" content="Dakai (DRKI) é um addon de Minecraft Bedrock inspirado em Dragon Ball: raças, transformações, ki, fusão e combate.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a href="#top" class="brand">DAKAI<span>.</span></a>
+  <nav class="main-nav">
+    <a href="#sobre">Sobre</a>
+    <a href="#lore">Lore</a>
+    <a href="#sistemas">Sistemas</a>
+    <a href="#apoiar">Apoiar</a>
+    <a href="#cadastro">Cadastro</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Seu ki desperta.<br>Sua história começa.</h1>
+      <p class="hero-sub">Dakai é um addon de Minecraft Bedrock que traz o universo de Dragon Ball para dentro do seu mundo: raças, transformações, ki, stamina, fusão e um sistema de combate feito do zero.</p>
+      <div class="hero-cta">
+        <a href="#apoiar" class="btn btn-primary">Apoiar o projeto</a>
+        <a href="#sobre" class="btn btn-ghost">Conhecer o Dakai</a>
+      </div>
+    </div>
+    <div class="hero-mark" aria-hidden="true">
+      <div class="ki-ring"></div>
+    </div>
+  </section>
+
+  <div class="divider" aria-hidden="true"></div>
+
+  <!-- SOBRE -->
+  <section id="sobre" class="section">
+    <div class="section-head">
+      <h2>O que é o Dakai</h2>
+    </div>
+    <div class="sobre-grid">
+      <p class="lead">
+        Dakai (também chamado internamente de projeto DRKI) é um addon construído com TypeScript e a API de scripting do Minecraft Bedrock. Ele não muda só a aparência do jogo — ele reconstrói a progressão do jogador em torno de raças, poder e escolhas de combate.
+      </p>
+      <p>
+        Cada sistema foi pensado para funcionar junto: sua raça define seu ponto de partida, sua stamina limita quanto tempo você aguenta lutar transformado, e sua energia (ki) decide o que você consegue fazer em combate. Nada é decorativo — tudo interfere no jeito como você joga.
+      </p>
+    </div>
+  </section>
+
+  <div class="divider divider-alt" aria-hidden="true"></div>
+
+  <!-- LORE -->
+  <section id="lore" class="section section-dark">
+    <div class="section-head">
+      <h2>A lore do universo Dakai</h2>
+      <p class="section-note">Edite este trecho no arquivo <code>index.html</code> com a história oficial do seu servidor.</p>
+    </div>
+
+    <ol class="timeline">
+      <li>
+        <span class="timeline-dot"></span>
+        <h3>O silêncio antes do poder</h3>
+        <p>Antes das primeiras transformações registradas, os habitantes do mundo de Dakai viviam sem saber que carregavam ki dentro de si. [Substitua por: como era o mundo antes da descoberta do ki.]</p>
+      </li>
+      <li>
+        <span class="timeline-dot"></span>
+        <h3>O despertar das raças</h3>
+        <p>Com o tempo, diferentes povos começaram a manifestar habilidades distintas — o início das raças jogáveis do servidor. [Substitua por: origem de cada raça disponível no addon.]</p>
+      </li>
+      <li>
+        <span class="timeline-dot"></span>
+        <h3>A era da transformação</h3>
+        <p>Guerreiros aprenderam a canalizar sua stamina em explosões de força temporárias, dando início ao sistema de transformações que existe hoje. [Substitua por: eventos-chave da sua lore.]</p>
+      </li>
+      <li>
+        <span class="timeline-dot"></span>
+        <h3>O presente: o servidor Dakai</h3>
+        <p>Hoje, jogadores entram nesse universo para escrever sua própria história de poder, escolhas e fusão. [Substitua por: onde a história do jogador começa.]</p>
+      </li>
+    </ol>
+  </section>
+
+  <div class="divider" aria-hidden="true"></div>
+
+  <!-- SISTEMAS -->
+  <section id="sistemas" class="section">
+    <div class="section-head">
+      <h2>Sistemas do addon</h2>
+    </div>
+    <div class="systems-grid">
+      <article class="system-card">
+        <h3>Raças</h3>
+        <p>Cada raça parte de atributos diferentes e molda como sua jornada de poder começa.</p>
+      </article>
+      <article class="system-card">
+        <h3>Transformações</h3>
+        <p>Eleve seu poder além do seu limite normal — com um custo real de stamina para manter a forma.</p>
+      </article>
+      <article class="system-card">
+        <h3>Ki</h3>
+        <p>Sua energia interna decide o que você consegue lançar, sustentar e sobreviver em combate.</p>
+      </article>
+      <article class="system-card">
+        <h3>Stamina</h3>
+        <p>Drena apenas durante transformações ativas e ao tomar dano transformado — force demais e você desmaia.</p>
+      </article>
+      <article class="system-card">
+        <h3>Fusão</h3>
+        <p>Una forças com outro jogador para alcançar um nível de poder que nenhum dos dois alcança sozinho.</p>
+      </article>
+      <article class="system-card">
+        <h3>Combate</h3>
+        <p>Um sistema de combate próprio, construído para dar peso real às suas escolhas de raça e transformação.</p>
+      </article>
+      <article class="system-card">
+        <h3>Interface própria</h3>
+        <p>HUD e telas customizadas para acompanhar ki, stamina e progressão sem depender do HUD padrão do jogo.</p>
+      </article>
+      <article class="system-card">
+        <h3>Configuração aberta</h3>
+        <p>Dezenas de valores ajustáveis, organizados por seção, para quem administra o próprio servidor.</p>
+      </article>
+    </div>
+  </section>
+
+  <div class="divider divider-alt" aria-hidden="true"></div>
+
+  <!-- APOIAR / PAGAMENTO -->
+  <section id="apoiar" class="section section-dark">
+    <div class="section-head">
+      <h2>Apoiar o servidor</h2>
+      <p class="section-note">Substitua os links dos botões abaixo pelos seus links de pagamento reais (veja o README para o passo a passo).</p>
+    </div>
+
+    <div class="plans-grid">
+      <article class="plan-card">
+        <h3>Guerreiro</h3>
+        <p class="plan-price">R$ 15<span>/mês</span></p>
+        <ul>
+          <li>Tag exclusiva no servidor</li>
+          <li>Acesso a um kit inicial</li>
+        </ul>
+        <a href="#" class="btn btn-primary btn-plan" data-plan="guerreiro">Apoiar como Guerreiro</a>
+      </article>
+
+      <article class="plan-card plan-card-highlight">
+        <h3>Super Saiyajin</h3>
+        <p class="plan-price">R$ 30<span>/mês</span></p>
+        <ul>
+          <li>Tudo do plano Guerreiro</li>
+          <li>Transformação exclusiva cosmética</li>
+          <li>Prioridade em filas do servidor</li>
+        </ul>
+        <a href="#" class="btn btn-primary btn-plan" data-plan="super-saiyajin">Apoiar como Super Saiyajin</a>
+      </article>
+
+      <article class="plan-card">
+        <h3>Apoiador único</h3>
+        <p class="plan-price">Valor livre</p>
+        <ul>
+          <li>Contribuição avulsa para o projeto</li>
+          <li>Reconhecimento no site</li>
+        </ul>
+        <a href="#" class="btn btn-primary btn-plan" data-plan="avulso">Fazer uma doação</a>
+      </article>
+    </div>
+  </section>
+
+  <div class="divider" aria-hidden="true"></div>
+
+  <!-- CADASTRO -->
+  <section id="cadastro" class="section">
+    <div class="section-head">
+      <h2>Cadastro do apoiador</h2>
+      <p class="section-note">Preencha antes de pagar — usamos esses dados só para vincular seu pagamento à sua conta no servidor.</p>
+    </div>
+
+    <form id="signup-form" class="signup-form" action="https://formspree.io/f/SEU_ID_AQUI" method="POST">
+      <input type="hidden" name="plano" id="plano-field" value="">
+
+      <label>
+        Nome completo
+        <input type="text" name="nome" required autocomplete="name">
+      </label>
+
+      <label>
+        CPF
+        <input type="text" name="cpf" required inputmode="numeric" placeholder="000.000.000-00" pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}">
+      </label>
+
+      <label>
+        E-mail
+        <input type="email" name="email" required autocomplete="email">
+      </label>
+
+      <label>
+        Nome no Minecraft
+        <input type="text" name="nick_minecraft" required>
+      </label>
+
+      <label class="consent">
+        <input type="checkbox" name="consentimento" required>
+        <span>Autorizo o uso destes dados para vincular minha compra à minha conta no servidor Dakai, conforme a política de privacidade.</span>
+      </label>
+
+      <button type="submit" class="btn btn-primary">Enviar cadastro</button>
+      <p class="form-note" id="form-status"></p>
+    </form>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>Dakai — projeto por About04. Este site é hospedado no GitHub Pages.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
